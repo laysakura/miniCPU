@@ -1,0 +1,16 @@
+This is a CPU runs on ModelSim, a Verilog HDL simulator.
+It implements a subset of IA-32 instructions.
+
+Note that the manual (report.pdf) is written in Japanese.
+
+
+[files]
+*.v				Verilog source files.
+
+defines.vh	Included by *.v
+
+report.pdf	Manual of this CPU.
+
+
+[Usage]
+Use ModelSim to simulate this CPU.
